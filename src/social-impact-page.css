@@ -1,0 +1,553 @@
+.social-impact-page {
+  color: var(--ds-ink);
+  background: #fff;
+}
+
+.impact-content-width {
+  width: min(100% - 72px, 1280px);
+  margin: 0 auto;
+}
+
+.impact-hero-inner {
+  width: 100%;
+  margin: 0;
+}
+
+.impact-hero {
+  position: relative;
+  min-height: 400px;
+  overflow: hidden;
+  background-color: var(--ds-forest);
+  background-position: 30% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.impact-hero-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgb(18 61 49 / 88%) 0%, rgb(18 61 49 / 73%) 37%, rgb(18 61 49 / 22%) 76%, rgb(18 61 49 / 4%) 100%);
+}
+
+.impact-hero-inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-height: inherit;
+  align-items: center;
+}
+
+.impact-hero-copy {
+  max-width: 590px;
+  margin-left: clamp(24px, 4vw, 58px);
+  padding: 58px 0;
+  color: #fff;
+}
+
+.impact-hero-copy h1 {
+  margin: 0;
+  color: #fff;
+  font-family: "Starbucks Display", "SoDo Sans", Arial, sans-serif;
+  font-size: clamp(42px, 4.8vw, 62px);
+  font-weight: 700;
+  letter-spacing: -.04em;
+  line-height: 1;
+}
+
+.impact-hero-copy > p {
+  max-width: 555px;
+  margin: 17px 0 0;
+  color: rgb(255 255 255 / 93%);
+  font-size: clamp(15px, 1.55vw, 18px);
+  line-height: 1.7;
+}
+
+.impact-hero-cta {
+  display: inline-flex;
+  min-height: 46px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 24px;
+  padding: 12px 19px;
+  border: 1px solid #fff;
+  border-radius: 999px;
+  color: var(--ds-forest);
+  background: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.impact-hero-cta:hover {
+  transform: translateY(-2px);
+  color: #fff;
+  background: transparent;
+}
+
+.impact-featured {
+  padding-top: clamp(38px, 5.5vw, 66px);
+  padding-bottom: clamp(40px, 5vw, 60px);
+  scroll-margin-top: 112px;
+}
+
+.impact-featured-lead {
+  display: grid;
+  min-height: 390px;
+  grid-template-columns: 1.08fr .92fr;
+  overflow: hidden;
+  border: 1px solid #e7e9e3;
+  border-radius: 20px;
+  background: #f8f8f5;
+  box-shadow: 0 12px 34px rgb(22 45 31 / 6%);
+}
+
+.impact-featured-image,
+.impact-featured-card-image {
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  background: #e8efe9;
+}
+
+.impact-featured-image img,
+.impact-featured-card-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 320ms ease;
+}
+
+.impact-featured-image:hover img,
+.impact-featured-card-image:hover img,
+.impact-article-image:hover img {
+  transform: scale(1.035);
+}
+
+.impact-featured-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: clamp(30px, 4vw, 60px);
+}
+
+.impact-article-category {
+  margin: 0 0 12px;
+  color: #13734f;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .16em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.impact-featured-copy h2,
+.impact-featured-card-copy h2 {
+  margin: 0;
+  color: #203a2e;
+  font-family: "Starbucks Display", "SoDo Sans", Arial, sans-serif;
+  font-size: clamp(24px, 2.2vw, 31px);
+  font-weight: 600;
+  letter-spacing: -.025em;
+  line-height: 1.17;
+}
+
+.impact-featured-copy > p,
+.impact-featured-card-copy > p {
+  margin: 16px 0 0;
+  color: #556157;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.impact-read-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  align-self: flex-start;
+  margin-top: 20px;
+  color: var(--ds-green);
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: rgb(0 98 65 / 38%);
+  text-underline-offset: 4px;
+  transition: gap 160ms ease, color 160ms ease;
+}
+
+.impact-read-more:hover {
+  gap: 9px;
+  color: #004b35;
+  text-decoration-color: currentColor;
+}
+
+.impact-featured-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 22px;
+}
+
+.impact-featured-card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #e7e9e3;
+  border-radius: 19px;
+  background: #f8f8f5;
+  box-shadow: 0 10px 28px rgb(22 45 31 / 5%);
+}
+
+.impact-featured-card-image {
+  aspect-ratio: 1.75 / 1;
+}
+
+.impact-featured-card-copy {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: clamp(24px, 3vw, 36px);
+}
+
+.impact-featured-card-copy h2 {
+  font-size: clamp(22px, 2vw, 28px);
+}
+
+.impact-featured-card-copy .impact-read-more {
+  margin-top: auto;
+  padding-top: 20px;
+}
+
+.impact-articles-section {
+  padding: clamp(52px, 7vw, 82px) 0 clamp(66px, 8vw, 100px);
+  background: #f2f0eb;
+}
+
+.impact-articles-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+.impact-articles-heading h2 {
+  margin: 0;
+  color: #203a2e;
+  font-family: "Starbucks Display", "SoDo Sans", Arial, sans-serif;
+  font-size: clamp(34px, 4vw, 44px);
+  font-weight: 600;
+  letter-spacing: -.035em;
+  line-height: 1;
+}
+
+.impact-article-controls {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  color: #5e6a61;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.impact-article-controls button {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+  border: 1px solid #cbd3cb;
+  border-radius: 50%;
+  color: var(--ds-green);
+  background: #fff;
+  cursor: pointer;
+  transition: color 160ms ease, background-color 160ms ease, border-color 160ms ease;
+}
+
+.impact-article-controls button:hover:not(:disabled) {
+  border-color: var(--ds-green);
+  color: #fff;
+  background: var(--ds-green);
+}
+
+.impact-article-controls button:disabled {
+  opacity: .42;
+  cursor: not-allowed;
+}
+
+.impact-article-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.impact-article-grid--mobile {
+  display: none;
+}
+
+.impact-article-card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #e5e6df;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 10px 28px rgb(30 49 36 / 5%);
+}
+
+.impact-article-image {
+  display: block;
+  aspect-ratio: 1.7 / 1;
+  overflow: hidden;
+  background: #e8efe9;
+}
+
+.impact-article-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 320ms ease;
+}
+
+.impact-article-copy {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 22px 23px 24px;
+}
+
+.impact-article-category {
+  margin-bottom: 10px;
+  font-size: 9px;
+}
+
+.impact-article-copy h3 {
+  margin: 0;
+  color: #203a2e;
+  font-family: "Starbucks Display", "SoDo Sans", Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: -.02em;
+  line-height: 1.23;
+}
+
+.impact-article-copy h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.impact-article-copy h3 a:hover {
+  color: var(--ds-green);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.impact-article-copy > p:not(.impact-article-category) {
+  display: -webkit-box;
+  overflow: hidden;
+  margin: 12px 0 0;
+  color: #58645a;
+  font-size: 13px;
+  line-height: 1.65;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+@media (min-width: 992px) {
+  .impact-hero {
+    min-height: 560px;
+  }
+
+  .impact-hero-copy {
+    margin-left: 8.3333vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .impact-hero-copy {
+    margin-left: 16.6667vw;
+  }
+}
+
+@media (max-width: 930px) {
+  .impact-content-width {
+    width: calc(100% - 48px);
+  }
+
+  .impact-hero-copy {
+    margin-left: clamp(18px, 4vw, 38px);
+  }
+
+  .impact-featured-lead {
+    min-height: 340px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .impact-featured-copy {
+    padding: 30px;
+  }
+
+  .impact-featured-copy h2 {
+    font-size: 25px;
+  }
+
+  .impact-article-grid {
+    gap: 14px;
+  }
+
+  .impact-article-copy {
+    padding: 18px;
+  }
+
+  .impact-article-copy h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 760px) {
+  .impact-content-width {
+    width: calc(100% - 34px);
+  }
+
+  .impact-hero {
+    min-height: 460px;
+    background-position: 36% center;
+  }
+
+  .impact-hero-shade {
+    background: linear-gradient(90deg, rgb(18 61 49 / 88%) 0%, rgb(18 61 49 / 65%) 65%, rgb(18 61 49 / 27%) 100%);
+  }
+
+  .impact-hero-inner {
+    align-items: flex-end;
+  }
+
+  .impact-hero-copy {
+    max-width: 560px;
+    padding: 48px 0 38px;
+  }
+
+  .impact-hero-copy h1 {
+    font-size: clamp(42px, 11vw, 56px);
+  }
+
+  .impact-hero-copy > p {
+    font-size: 15px;
+  }
+
+  .impact-featured {
+    padding-top: 24px;
+    padding-bottom: 36px;
+  }
+
+  .impact-featured-lead {
+    grid-template-columns: 1fr;
+    border-radius: 17px;
+  }
+
+  .impact-featured-image {
+    aspect-ratio: 1 / 1;
+  }
+
+  .impact-featured-copy {
+    padding: 24px 22px 26px;
+  }
+
+  .impact-featured-copy h2,
+  .impact-featured-card-copy h2 {
+    font-size: 24px;
+  }
+
+  .impact-featured-copy > p,
+  .impact-featured-card-copy > p {
+    font-size: 14px;
+  }
+
+  .impact-featured-grid {
+    grid-template-columns: 1fr;
+    gap: 17px;
+    margin-top: 17px;
+  }
+
+  .impact-featured-card {
+    border-radius: 17px;
+  }
+
+  .impact-featured-card-image {
+    aspect-ratio: 1 / 1;
+  }
+
+  .impact-featured-card-copy {
+    padding: 24px 22px 25px;
+  }
+
+  .impact-articles-section {
+    padding: 48px 0 66px;
+  }
+
+  .impact-articles-heading {
+    align-items: flex-end;
+    margin-bottom: 22px;
+  }
+
+  .impact-articles-heading h2 {
+    font-size: 34px;
+  }
+
+  .impact-article-controls {
+    display: none;
+  }
+
+  .impact-article-grid--desktop {
+    display: none;
+  }
+
+  .impact-article-grid--mobile {
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    margin-right: -17px;
+    padding: 0 17px 14px 0;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    scrollbar-color: #a9b7ac transparent;
+  }
+
+  .impact-article-grid--mobile .impact-article-card {
+    flex: 0 0 min(82vw, 355px);
+    scroll-snap-align: start;
+  }
+
+  .impact-article-grid--mobile .impact-article-image {
+    aspect-ratio: 1 / 1;
+  }
+
+  .impact-article-copy {
+    padding: 19px 19px 21px;
+  }
+
+  .impact-article-copy h3 {
+    font-size: 20px;
+  }
+
+  .impact-article-copy > p:not(.impact-article-category) {
+    -webkit-line-clamp: 5;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .impact-featured-image img,
+  .impact-featured-card-image img,
+  .impact-article-image img,
+  .impact-hero-cta,
+  .impact-read-more {
+    transition: none;
+  }
+}

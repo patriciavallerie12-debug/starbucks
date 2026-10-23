@@ -1,0 +1,389 @@
+.order-page {
+  color: var(--ds-ink);
+  background: var(--ds-paper);
+}
+
+.order-page section[id] {
+  scroll-margin-top: 116px;
+}
+
+.order-content-width {
+  width: min(100% - 72px, 1280px);
+  margin: 0 auto;
+}
+
+.order-hero-inner {
+  width: 100%;
+  margin: 0;
+}
+
+/* Mirror the reference page's full-width app-download hero. */
+.order-hero {
+  position: relative;
+  min-height: 400px;
+  overflow: hidden;
+  background-color: #20382d;
+  background-image: url("/assets/order/order-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.order-hero-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgb(9 24 17 / 79%) 0%, rgb(9 24 17 / 62%) 38%, rgb(9 24 17 / 17%) 76%, rgb(9 24 17 / 6%) 100%);
+}
+
+.order-hero-inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-height: inherit;
+  align-items: center;
+}
+
+.order-hero-copy {
+  width: min(100%, 580px);
+  margin-left: clamp(24px, 4vw, 48px);
+  padding: 56px 0;
+  color: #fff;
+}
+
+.order-hero-copy h1 {
+  margin: 0;
+  color: #fff;
+  font-family: "Starbucks Display", "SoDo Sans", Arial, sans-serif;
+  font-size: clamp(40px, 3.75vw, 54px);
+  font-weight: 700;
+  letter-spacing: -.04em;
+  line-height: 1.02;
+}
+
+.order-hero-copy > p {
+  max-width: 490px;
+  margin: 14px 0 0;
+  color: rgb(255 255 255 / 91%);
+  font-size: clamp(15px, 1.7vw, 19px);
+  line-height: 1.55;
+}
+
+.order-app-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: 23px;
+}
+
+.order-app-badges a {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 7px;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.order-app-badges a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 20px rgb(0 0 0 / 22%);
+}
+
+.order-app-badges img {
+  display: block;
+  height: 60px;
+  width: auto;
+}
+
+.order-intro {
+  padding: clamp(38px, 5.5vw, 66px) 0 clamp(24px, 3vw, 35px);
+  background: #fff;
+}
+
+.order-intro p {
+  max-width: 850px;
+  margin: 0 auto;
+  color: #414b44;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.order-steps {
+  padding: 1px 0 8px;
+  background: #fff;
+}
+
+.order-step-row {
+  display: grid;
+  width: min(100% - 72px, 1280px);
+  min-height: 340px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-areas: "copy image";
+  overflow: hidden;
+  margin: 28px auto 38px;
+  border: 1px solid #e9ebe6;
+  border-radius: 21px;
+  background: #f9f9f7;
+  box-shadow: 0 12px 34px rgb(22 45 31 / 6%);
+}
+
+.order-step-row--reverse {
+  grid-template-areas: "image copy";
+}
+
+.order-step-copy {
+  display: flex;
+  grid-area: copy;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(30px, 5vw, 72px);
+  background: #f9f9f7;
+}
+
+.order-step-copy-inner {
+  width: min(100%, 450px);
+}
+
+.order-step-copy h2 {
+  margin: 0 0 18px;
+  color: #243d30;
+  font-family: "Starbucks Display", "SoDo Sans", Arial, sans-serif;
+  font-size: clamp(24px, 2.2vw, 30px);
+  font-weight: 600;
+  letter-spacing: -.025em;
+  line-height: 1.1;
+}
+
+.order-step-copy p {
+  margin: 0;
+  color: #535f56;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.order-step-image {
+  min-width: 0;
+  grid-area: image;
+  min-height: 340px;
+  margin: 0;
+  background: #f9f9f7;
+}
+
+.order-step-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 340px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.order-faq-section {
+  padding: clamp(50px, 7vw, 82px) 0 clamp(64px, 8vw, 100px);
+  background: #f2f1eb;
+}
+
+.order-faq-section h2 {
+  margin: 0 0 34px;
+  color: #263b2f;
+  font-family: "Starbucks Display", "SoDo Sans", Arial, sans-serif;
+  font-size: clamp(32px, 3vw, 40px);
+  font-weight: 700;
+  letter-spacing: -.03em;
+  line-height: 1.08;
+  text-align: center;
+}
+
+.order-faq-list {
+  max-width: 960px;
+  margin: 0 auto;
+  border-top: 1px solid #d9ddd6;
+}
+
+.order-faq-list details {
+  border-bottom: 1px solid #d9ddd6;
+}
+
+.order-page .order-faq-list summary {
+  padding: 19px 44px 19px 0;
+  color: #263b2f;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.order-page .order-faq-list summary::after {
+  top: 17px;
+  right: 6px;
+  color: var(--ds-green);
+  font-size: 21px;
+}
+
+.order-page .order-faq-list details[open] summary {
+  color: var(--ds-green);
+}
+
+.order-faq-answer {
+  padding: 0 38px 18px 0;
+}
+
+.order-page .order-faq-answer p {
+  max-width: 760px;
+  margin: 0;
+  padding: 0;
+  color: #57645a;
+  font-size: 15px;
+  line-height: 1.75;
+  white-space: pre-wrap;
+}
+
+
+@media (min-width: 992px) {
+  .order-hero {
+    min-height: 560px;
+  }
+
+  .order-hero-copy {
+    margin-left: 8.3333vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .order-hero-copy {
+    margin-left: 16.6667vw;
+  }
+}
+
+@media (max-width: 930px) {
+  .order-content-width {
+    width: min(100% - 48px, 1280px);
+  }
+
+  .order-step-row {
+    width: calc(100% - 48px);
+    min-height: 300px;
+  }
+
+  .order-step-image,
+  .order-step-image img {
+    min-height: 300px;
+  }
+
+  .order-step-copy {
+    padding: 34px;
+  }
+}
+
+@media (max-width: 760px) {
+  .order-content-width {
+    width: calc(100% - 34px);
+  }
+
+  .order-hero {
+    min-height: 450px;
+    background-position: 55% center;
+  }
+
+  .order-hero-shade {
+    background: linear-gradient(90deg, rgb(9 24 17 / 77%) 0%, rgb(9 24 17 / 54%) 68%, rgb(9 24 17 / 25%) 100%);
+  }
+
+  .order-hero-inner {
+    align-items: flex-end;
+  }
+
+  .order-hero-copy {
+    width: calc(100% - 34px);
+    margin-left: 17px;
+    padding: 54px 0 43px;
+  }
+
+  .order-hero-copy h1 {
+    max-width: 450px;
+    font-size: clamp(40px, 10vw, 57px);
+  }
+
+  .order-hero-copy > p {
+    font-size: 15px;
+  }
+
+  .order-app-badges {
+    gap: 8px;
+    margin-top: 20px;
+  }
+
+  .order-app-badges img {
+    height: 46px;
+    max-width: calc((100vw - 52px) / 2);
+  }
+
+  .order-intro {
+    padding: 33px 0 21px;
+  }
+
+  .order-intro p {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .order-step-row,
+  .order-step-row--reverse {
+    width: calc(100% - 28px);
+    min-height: 0;
+    grid-template-columns: 1fr;
+    grid-template-areas: "image" "copy";
+    margin: 18px auto 24px;
+    border-radius: 17px;
+  }
+
+  .order-step-image,
+  .order-step-image img {
+    min-height: 0;
+    aspect-ratio: 1 / 1;
+  }
+
+  .order-step-image img {
+    object-fit: cover;
+  }
+
+  .order-step-copy {
+    padding: 25px 23px 28px;
+  }
+
+  .order-step-copy h2 {
+    margin-bottom: 9px;
+    font-size: 24px;
+  }
+
+  .order-step-copy p {
+    font-size: 14px;
+  }
+
+  .order-faq-section {
+    padding: 48px 0 68px;
+  }
+
+  .order-faq-section h2 {
+    margin-bottom: 25px;
+    text-align: left;
+  }
+
+  .order-page .order-faq-list summary {
+    padding: 17px 38px 17px 0;
+    font-size: 14px;
+  }
+
+  .order-page .order-faq-list summary::after {
+    top: 16px;
+  }
+
+  .order-faq-answer {
+    padding-right: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .order-app-badges a {
+    transition: none;
+  }
+}

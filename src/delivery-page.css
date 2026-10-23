@@ -1,0 +1,217 @@
+.delivery-hero-link {
+  display: inline-flex;
+  min-height: 46px;
+  align-items: center;
+  gap: 9px;
+  margin-top: 22px;
+  padding: 12px 19px;
+  border: 1px solid #fff;
+  border-radius: 999px;
+  color: #1e3932;
+  background: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 150ms ease, background 150ms ease, transform 150ms ease;
+}
+
+.delivery-hero-link:hover {
+  color: #fff;
+  background: #006241;
+  transform: translateY(-1px);
+}
+
+.delivery-hero-link:focus-visible,
+.delivery-menu-link:focus-visible {
+  outline: 3px solid #d2a54b;
+  outline-offset: 3px;
+}
+
+.delivery-page-content {
+  display: grid;
+  gap: 55px;
+  padding-bottom: 70px;
+}
+
+.delivery-options-section {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(340px, 0.95fr);
+  align-items: center;
+  gap: clamp(28px, 5vw, 64px);
+  padding: clamp(26px, 4.5vw, 54px);
+  border: 1px solid #e0e7df;
+  border-radius: 22px;
+  background: linear-gradient(135deg, #f3f8f3, #fbf8f0);
+  box-shadow: 0 10px 30px rgb(27 48 35 / 5%);
+  scroll-margin-top: 120px;
+}
+
+.delivery-options-copy h2 {
+  max-width: 600px;
+  margin: 0;
+  color: #1e3932;
+  font-family: "Starbucks Display", "SoDo Sans", sans-serif;
+  font-size: clamp(29px, 3.6vw, 43px);
+  font-weight: 400;
+  letter-spacing: -0.035em;
+  line-height: 1.12;
+}
+
+.delivery-options-copy > p:last-child {
+  max-width: 650px;
+  margin: 16px 0 0;
+  color: #4e5c52;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.delivery-partner-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.delivery-partner-card {
+  display: flex;
+  min-height: 88px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 0;
+  padding: 14px 24px;
+  border: 1px solid #e4e9e3;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 5px 17px rgb(27 48 35 / 4%);
+}
+
+.delivery-partner-card img {
+  display: block;
+  width: min(100%, 220px);
+  max-height: 56px;
+  object-fit: contain;
+}
+
+.delivery-partner-card figcaption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+}
+
+.delivery-faq-section {
+  width: min(100%, 920px);
+  padding-bottom: 0;
+}
+
+.delivery-faq-section > h2 {
+  margin-bottom: 22px;
+}
+
+.delivery-faq-list ol {
+  margin: -3px 0 20px;
+  padding: 0 28px 0 22px;
+  color: #535a54;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.delivery-faq-list li + li {
+  margin-top: 8px;
+}
+
+.delivery-footer-note {
+  margin: 19px 0 0;
+  padding-top: 15px;
+  border-top: 1px solid #e2e5df;
+  color: #68726a;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.delivery-menu-link {
+  display: inline-flex;
+  width: fit-content;
+  min-height: 44px;
+  align-items: center;
+  gap: 8px;
+  margin-top: 19px;
+  padding: 11px 17px;
+  border: 1px solid #006241;
+  border-radius: 999px;
+  color: #fff;
+  background: #006241;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 150ms ease, transform 150ms ease;
+}
+
+.delivery-menu-link:hover {
+  background: #004b32;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 900px) {
+  .delivery-options-section {
+    grid-template-columns: 1fr;
+  }
+
+  .delivery-partner-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .delivery-partner-card {
+    min-height: 84px;
+    padding: 12px;
+  }
+
+  .delivery-partner-card img {
+    width: 100%;
+    max-height: 44px;
+  }
+}
+
+@media (max-width: 650px) {
+  .delivery-page-content {
+    gap: 38px;
+    padding-bottom: 42px;
+  }
+
+  .delivery-options-section {
+    gap: 22px;
+    padding: 23px 18px;
+    border-radius: 17px;
+  }
+
+  .delivery-options-copy h2 {
+    font-size: 31px;
+  }
+
+  .delivery-options-copy > p:last-child {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+
+  .delivery-partner-grid {
+    gap: 7px;
+  }
+
+  .delivery-partner-card {
+    min-height: 70px;
+    padding: 9px;
+    border-radius: 11px;
+  }
+
+  .delivery-partner-card img {
+    max-height: 34px;
+  }
+
+  .delivery-faq-section > h2 {
+    font-size: 28px;
+  }
+}

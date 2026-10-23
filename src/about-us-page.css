@@ -1,0 +1,580 @@
+/* About Us: a dedicated, local rendering of the Starbucks Philippines story. */
+.about-us-page {
+  color: var(--ds-ink);
+  background: var(--ds-paper);
+}
+
+.about-us-page section[id] {
+  scroll-margin-top: 116px;
+}
+
+.about-content-width,
+.about-mission-inner,
+.about-philippines-inner,
+.about-store-callout-inner {
+  width: min(100% - 72px, 1280px);
+  margin: 0 auto;
+}
+
+.about-eyebrow,
+.about-overline {
+  margin: 0;
+  color: var(--ds-green);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .15em;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+.about-mission {
+  overflow: hidden;
+  background: linear-gradient(118deg, #f3f1e7 0%, #f8f7f1 52%, #e8efe9 100%);
+}
+
+.about-mission-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr);
+  align-items: center;
+  gap: clamp(34px, 6vw, 82px);
+  padding-top: clamp(55px, 7vw, 88px);
+  padding-bottom: clamp(55px, 7vw, 88px);
+}
+
+.about-mission-copy {
+  max-width: 700px;
+}
+
+.about-mission-copy .about-overline {
+  margin: 24px 0 13px;
+  color: #6b766e;
+}
+
+.about-mission-copy h1 {
+  margin: 0;
+  color: var(--ds-forest);
+  font-family: "Starbucks Display", "SoDo Sans", Arial, sans-serif;
+  font-size: clamp(39px, 4.4vw, 61px);
+  font-weight: 400;
+  letter-spacing: -.045em;
+  line-height: 1.02;
+}
+
+.about-mission-copy h1 span {
+  display: block;
+  margin-top: 5px;
+  color: var(--ds-green);
+}
+
+.about-mission-description {
+  max-width: 555px;
+  margin: 21px 0 0;
+  color: #536258;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.about-scroll-link,
+.about-text-link,
+.about-official-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ds-green);
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: color 160ms ease, gap 160ms ease;
+}
+
+.about-mission-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 13px 24px;
+  margin-top: 24px;
+}
+
+.about-scroll-link {
+  margin-top: 0;
+}
+
+.about-official-link {
+  color: #65736a;
+  font-size: 12px;
+  font-weight: 650;
+  text-decoration: underline;
+  text-decoration-color: #aeb9af;
+  text-underline-offset: 3px;
+}
+
+.about-scroll-link:hover,
+.about-text-link:hover,
+.about-official-link:hover {
+  gap: 12px;
+  color: #073f2d;
+}
+
+.about-mission-visual,
+.about-story-photo,
+.about-philippines-photo,
+.about-beyond-photo {
+  min-width: 0;
+  margin: 0;
+}
+
+.about-mission-image-frame {
+  overflow: hidden;
+  aspect-ratio: 1.13;
+  border: 1px solid rgb(28 59 41 / 9%);
+  border-radius: 26px;
+  background: #e5e6dd;
+  box-shadow: 0 24px 60px rgb(30 55 38 / 14%);
+}
+
+.about-mission-image-frame img,
+.about-story-photo img,
+.about-philippines-photo img,
+.about-beyond-photo img,
+.about-principle-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-mission-visual figcaption,
+.about-story-photo figcaption {
+  margin: 11px 2px 0;
+  color: #707a72;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.about-story-section {
+  padding: clamp(60px, 8vw, 102px) 0;
+  background: #fff;
+}
+
+.about-section-heading {
+  max-width: 755px;
+}
+
+.about-section-heading h2,
+.about-philippines-copy h2,
+.about-beyond-copy h2,
+.about-store-callout h2 {
+  margin: 12px 0 0;
+  color: var(--ds-forest);
+  font-family: "Starbucks Display", "SoDo Sans", Arial, sans-serif;
+  font-size: clamp(34px, 4.1vw, 50px);
+  font-weight: 400;
+  letter-spacing: -.035em;
+  line-height: 1.06;
+}
+
+.about-section-heading > p:last-child {
+  max-width: 680px;
+  margin: 15px 0 0;
+  color: #66736a;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.about-story-layout {
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+  align-items: start;
+  gap: clamp(30px, 5vw, 64px);
+  margin-top: 38px;
+}
+
+.about-story-photo img {
+  aspect-ratio: 1.18;
+  border-radius: 22px;
+  background: #e5e6df;
+}
+
+.about-timeline {
+  position: relative;
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 3px 0 0;
+  list-style: none;
+}
+
+.about-timeline::before {
+  position: absolute;
+  top: 12px;
+  bottom: 31px;
+  left: 72px;
+  width: 1px;
+  background: #d9e3da;
+  content: "";
+}
+
+.about-timeline-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
+  gap: 34px;
+  padding: 0 0 24px;
+}
+
+.about-timeline-item::before {
+  position: absolute;
+  top: 8px;
+  left: 68px;
+  width: 9px;
+  height: 9px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: var(--ds-green);
+  box-shadow: 0 0 0 1px #a9c5b0;
+  content: "";
+}
+
+.about-timeline-year {
+  padding-top: 2px;
+  color: var(--ds-green);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .03em;
+}
+
+.about-timeline-copy h3 {
+  margin: 0;
+  color: #243b2d;
+  font-size: 16px;
+  font-weight: 750;
+  letter-spacing: -.02em;
+}
+
+.about-timeline-copy p {
+  margin: 7px 0 0;
+  color: #66736a;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.about-philippines-section {
+  padding: clamp(48px, 7vw, 78px) 0;
+  background: #e8efe9;
+}
+
+.about-philippines-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(35px, 6vw, 82px);
+}
+
+.about-philippines-photo img {
+  aspect-ratio: 1.24;
+  border-radius: 24px;
+  box-shadow: 0 18px 42px rgb(18 61 49 / 12%);
+}
+
+.about-philippines-copy h2 {
+  max-width: 510px;
+}
+
+.about-philippines-copy > p:not(.about-eyebrow) {
+  max-width: 590px;
+  margin: 17px 0 0;
+  color: #4f5f55;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.about-philippines-copy .about-text-link {
+  margin-top: 23px;
+}
+
+.about-beyond-section {
+  padding: clamp(60px, 8vw, 96px) 0;
+  background: #faf9f5;
+}
+
+.about-beyond-inner {
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+  align-items: center;
+  gap: clamp(32px, 6vw, 76px);
+}
+
+.about-beyond-copy h2 {
+  max-width: 500px;
+}
+
+.about-beyond-copy > p:not(.about-eyebrow) {
+  max-width: 550px;
+  margin: 16px 0 0;
+  color: #5f6d63;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.about-beyond-copy .about-text-link {
+  margin-top: 22px;
+}
+
+.about-beyond-photo img {
+  aspect-ratio: 1.48;
+  border-radius: 24px;
+}
+
+.about-principles-section {
+  padding: clamp(58px, 7vw, 88px) 0 clamp(70px, 8vw, 106px);
+  background: #f1efe7;
+}
+
+.about-section-heading--center {
+  margin: 0 auto 34px;
+  text-align: center;
+}
+
+.about-section-heading--center > p:last-child {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-principles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 19px;
+}
+
+.about-principle-card {
+  overflow: hidden;
+  border: 1px solid rgb(28 59 41 / 9%);
+  border-radius: 19px;
+  background: #fff;
+  box-shadow: 0 10px 28px rgb(25 51 34 / 5%);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.about-principle-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 40px rgb(25 51 34 / 11%);
+}
+
+.about-principle-image {
+  overflow: hidden;
+  aspect-ratio: 1.68;
+  background: #e4e8e1;
+}
+
+.about-principle-image img {
+  transition: transform 240ms ease;
+}
+
+.about-principle-card:hover .about-principle-image img {
+  transform: scale(1.035);
+}
+
+.about-principle-copy {
+  padding: 20px 20px 22px;
+}
+
+.about-principle-copy h3 {
+  margin: 0;
+  color: var(--ds-forest);
+  font-family: "Starbucks Display", "SoDo Sans", Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.about-principle-copy p {
+  margin: 9px 0 0;
+  color: #647168;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.about-store-callout {
+  padding: 35px 0;
+  color: #fff;
+  background: var(--ds-forest);
+}
+
+.about-store-callout-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.about-store-callout .about-eyebrow {
+  color: #bdd7c5;
+}
+
+.about-store-callout h2 {
+  margin-top: 7px;
+  color: #fff;
+  font-size: clamp(27px, 3vw, 36px);
+}
+
+.about-store-button {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 46px;
+  padding: 0 19px;
+  border: 1px solid rgb(255 255 255 / 65%);
+  border-radius: 999px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 750;
+  text-decoration: none;
+  transition: color 160ms ease, background-color 160ms ease;
+}
+
+.about-store-button:hover {
+  color: var(--ds-forest);
+  background: #fff;
+}
+
+@media (max-width: 930px) {
+  .about-content-width,
+  .about-mission-inner,
+  .about-philippines-inner,
+  .about-store-callout-inner {
+    width: min(100% - 48px, 1280px);
+  }
+
+  .about-mission-inner {
+    grid-template-columns: minmax(0, 1fr) minmax(0, .82fr);
+    gap: 32px;
+  }
+
+  .about-mission-copy h1 {
+    font-size: clamp(38px, 5vw, 52px);
+  }
+}
+
+@media (max-width: 760px) {
+  .about-content-width,
+  .about-mission-inner,
+  .about-philippines-inner,
+  .about-store-callout-inner {
+    width: calc(100% - 34px);
+  }
+
+  .about-mission-inner,
+  .about-story-layout,
+  .about-philippines-inner,
+  .about-beyond-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .about-mission-inner {
+    gap: 28px;
+    padding-top: 45px;
+    padding-bottom: 40px;
+  }
+
+  .about-mission-copy h1 {
+    font-size: clamp(38px, 9vw, 54px);
+  }
+
+  .about-mission-description {
+    font-size: 14px;
+  }
+
+  .about-mission-image-frame,
+  .about-story-photo img,
+  .about-philippines-photo img {
+    aspect-ratio: 1 / 1;
+  }
+
+  .about-story-layout {
+    gap: 28px;
+    margin-top: 27px;
+  }
+
+  .about-story-section,
+  .about-beyond-section {
+    padding: 54px 0;
+  }
+
+  .about-timeline::before {
+    left: 65px;
+  }
+
+  .about-timeline-item {
+    grid-template-columns: 49px minmax(0, 1fr);
+    gap: 32px;
+    padding-bottom: 21px;
+  }
+
+  .about-timeline-item::before {
+    left: 61px;
+  }
+
+  .about-philippines-section {
+    padding: 42px 0 48px;
+  }
+
+  .about-philippines-inner {
+    gap: 26px;
+  }
+
+  .about-principles-section {
+    padding: 55px 0 65px;
+  }
+
+  .about-principles-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 13px;
+  }
+
+  .about-principle-card {
+    border-radius: 15px;
+  }
+
+  .about-principle-copy {
+    padding: 15px 14px 17px;
+  }
+
+  .about-principle-copy h3 {
+    font-size: 20px;
+  }
+
+  .about-principle-copy p {
+    font-size: 11px;
+  }
+
+  .about-store-callout-inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-principles-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-principle-image {
+    aspect-ratio: 1.45;
+  }
+
+  .about-section-heading--center {
+    text-align: left;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-principle-card,
+  .about-principle-image img,
+  .about-scroll-link,
+  .about-text-link,
+  .about-official-link,
+  .about-store-button {
+    transition: none;
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "hero": {
+    "title": "Get Together",
+    "description": "Get Together is a call to action that empowers us to positively impact lives, strengthen our communities, and protect our planet.",
+    "cta": "See featured articles",
+    "heroImage": "/assets/social-impact/social-impact-hero.jpg"
+  },
+  "features": [
+    {
+      "id": "42",
+      "title": "Starbucks Philippines Gets Together for Global Month of Good Empowering Communities and Fostering a Brighter Future",
+      "description": "We just concluded our annual Global Month of Good (GMOG) this April 2025 — a month-long initiative dedicated to uplifting the communities it serves.",
+      "image": "/assets/social-impact/featured-42.jpg"
+    },
+    {
+      "id": "41",
+      "title": "Starbucks Philippines Blends Coffee, Art, and Empowerment in Celebration of International Women’s Month",
+      "description": "The #StrongLikeCoffee Conversations at the Starbucks Abad Santos Tondo Community Store on February 28 featured Filipino artists who have brought some of Starbucks’ iconic store artworks to life.",
+      "image": "/assets/social-impact/featured-41.jpg"
+    },
+    {
+      "id": "40",
+      "title": "Starbucks Invites Communities to \"Get Together\" for Good",
+      "description": "Turning everyday conversations over coffee into positive actions",
+      "image": "/assets/social-impact/featured-40.jpg"
+    }
+  ],
+  "articles": [
+    {
+      "id": "37",
+      "category": "PLANET",
+      "title": "Starbucks Philippines celebrates Global Month of Good across the market",
+      "description": "Starbucks Philippines extended its community-building initiatives, expanding its efforts to key cities outside Metro Manila, while simultaneously amplifying its outreach within the current communities they serve.",
+      "image": "/assets/social-impact/article-37.jpg"
+    },
+    {
+      "id": "39",
+      "category": "PLANET",
+      "title": "Brewing Connections: Lester’s Journey from Student to Community Champion",
+      "description": "Lester’s journey from a Babag II Elementary School alumnus to a Starbucks Philippines partner came full circle when he returned to his alma mater to help build an AquaTower.",
+      "image": "/assets/social-impact/article-39.jpg"
+    },
+    {
+      "id": "36",
+      "category": "PLANET",
+      "title": "Starbucks Philippines Shares Progress on Social Impact and Sustainability Commitments",
+      "description": "Starbucks Philippines is committed to the pursuit of becoming a resource-positive company, dedicated to giving back more to the planet than it takes.",
+      "image": "/assets/social-impact/article-36.jpg"
+    },
+    {
+      "id": "28",
+      "category": "PLANET",
+      "title": "The Starbucks FoodShare Program: Creating a Positive Impact, One Community at a Time",
+      "description": "As part of Starbucks People Positive aspirations, focused on enhancing the well-being of all who connect with Starbucks, the company launched its FoodShare food donation program last March 2022.",
+      "image": "/assets/social-impact/article-28.jpg"
+    },
+    {
+      "id": "31",
+      "category": "PLANET",
+      "title": "Starbucks Philippines strives for a more sustainable future",
+      "description": "A look at our resource-positive milestones to date  (2022)",
+      "image": "/assets/social-impact/article-31.jpg"
+    },
+    {
+      "id": "24",
+      "category": "PLANET",
+      "title": "Starbucks Philippines Showcases Innovation For Growth And A More Connected Future",
+      "description": "Starbucks Philippines champions sustainability and digital innovation as they unveil their initiatives for 2022 and beyond.",
+      "image": "/assets/social-impact/article-24.jpg"
+    },
+    {
+      "id": "19",
+      "category": "PLANET",
+      "title": "Starbucks® X LINE FRIENDS merchandise collection Celebrates Earth Month",
+      "description": "Starbucks and LINE FRIENDS, a global character brand loved by many, are joining together once again for a limited-edition merchandise collection to commemorate Earth Month across the Asia Pacific region.",
+      "image": "/assets/social-impact/article-19.jpg"
+    },
+    {
+      "id": "23",
+      "category": "PLANET",
+      "title": "Starbucks In-Store Sustainability Practices Are Back in the Philippines",
+      "description": "As part of our long-standing commitment to sustainability and our ongoing aspiration to reduce waste to become a resource positive company, we are continuously looking for ways to better manage our waste in stores and in communities.",
+      "image": "/assets/social-impact/article-23.jpg"
+    },
+    {
+      "id": "21",
+      "category": "PLANET",
+      "title": "Starbucks presents a planet-positive Social Media Challenge with LINE Friends for Earth Day",
+      "description": "Here are 4 easy tips on how to take care of our Planet earth according to our LINE FRIENDS.",
+      "image": "/assets/social-impact/article-21.jpg"
+    },
+    {
+      "id": "22",
+      "category": "PLANET",
+      "title": "Starbucks Philippines donates an AquaTower to Nanguma Elementary School  to bring clean water to the community",
+      "description": "In partnership with The Starbucks Foundation & Planet Water Foundation, Starbucks Philippines sponsored the market's 2nd Aquatower installed in Nanguma Elementary School, Mabitac, Laguna last August 27, 2021.",
+      "image": "/assets/social-impact/article-22.jpg"
+    }
+  ]
+}

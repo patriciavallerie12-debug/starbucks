@@ -1,0 +1,1391 @@
+{
+  "source": "https://starbucks.ph/menu",
+  "allergenNotice": "We cannot guarantee that any of our products are free from allergens as we use shared equipment to store, prepare, and serve them.",
+  "sections": [
+    {
+      "title": "Drinks",
+      "categories": [
+        {
+          "id": "1",
+          "title": "Featured Drinks",
+          "image": "/assets/menu/11de9fb4723c4c.jpg",
+          "groups": [
+            {
+              "title": "Featured Drinks",
+              "products": [
+                {
+                  "id": "818",
+                  "name": "Roasted Macadamia Oatmilk Frappuccino®",
+                  "image": "/assets/menu/a9509b356a4d3c.jpg"
+                },
+                {
+                  "id": "819",
+                  "name": "Roasted Macadamia Oatmilk Iced Shaken Espresso",
+                  "image": "/assets/menu/c5e3653ab335f4.jpg"
+                },
+                {
+                  "id": "820",
+                  "name": "Roasted Macadamia Oatmilk Cream Frappuccino®",
+                  "image": "/assets/menu/5d706db4d9c942.jpg"
+                },
+                {
+                  "id": "821",
+                  "name": "Pumpkin Spice Latte Hot",
+                  "image": "/assets/menu/1d42901f3678ac.jpg"
+                },
+                {
+                  "id": "822",
+                  "name": "Pumpkin Spice Frappuccino®",
+                  "image": "/assets/menu/23cd0b746bf5a3.jpg"
+                },
+                {
+                  "id": "823",
+                  "name": "Iced Pumpkin Spice Latte",
+                  "image": "/assets/menu/1c95141c013d2d.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Brewed Coffee",
+          "image": "/assets/menu/c1dbaf0e326212.jpg",
+          "groups": [
+            {
+              "title": "Hot Coffee",
+              "products": [
+                {
+                  "id": "153",
+                  "name": "Hot Brewed Coffee",
+                  "image": "/assets/menu/2df363fbe6e527.jpg"
+                }
+              ]
+            },
+            {
+              "title": "Iced Coffee",
+              "products": [
+                {
+                  "id": "127",
+                  "name": "Salted Caramel Cold Brew",
+                  "image": "/assets/menu/ed94b69bb4e153.jpg"
+                },
+                {
+                  "id": "128",
+                  "name": "Nitro Vanilla Sweet Cream Cold Brew",
+                  "image": "/assets/menu/fcdda6c2cc9224.jpg"
+                },
+                {
+                  "id": "129",
+                  "name": "Nitro Cold Brew",
+                  "image": "/assets/menu/3d1f03d818d574.jpg"
+                },
+                {
+                  "id": "130",
+                  "name": "Cold Brew",
+                  "image": "/assets/menu/aec15ac3f9b592.jpg"
+                },
+                {
+                  "id": "131",
+                  "name": "Vanilla Sweet Cream Cold Brew",
+                  "image": "/assets/menu/467c8103d29336.jpg"
+                },
+                {
+                  "id": "132",
+                  "name": "Dark Caramel Nitro Cold Brew",
+                  "image": "/assets/menu/8ba3ef507b3858.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "title": "Espresso",
+          "image": "/assets/menu/0d1c0d9a8aa259.jpg",
+          "groups": [
+            {
+              "title": "Hot Espresso",
+              "products": [
+                {
+                  "id": "155",
+                  "name": "Caffe Misto",
+                  "image": "/assets/menu/ee08561fda530f.jpg"
+                },
+                {
+                  "id": "156",
+                  "name": "Flat White",
+                  "image": "/assets/menu/40e0944cd0ec98.jpg"
+                },
+                {
+                  "id": "157",
+                  "name": "Espresso",
+                  "image": "/assets/menu/1a4389f05d7ef9.jpg"
+                },
+                {
+                  "id": "158",
+                  "name": "Espresso Macchiato",
+                  "image": "/assets/menu/c6d4259850c012.jpg"
+                },
+                {
+                  "id": "159",
+                  "name": "Espresso Con Panna",
+                  "image": "/assets/menu/4f3b336fb9117b.jpg"
+                }
+              ]
+            },
+            {
+              "title": "Iced Espresso",
+              "products": [
+                {
+                  "id": "137",
+                  "name": "Iced Caramel Macchiato",
+                  "image": "/assets/menu/11f57a48d516ae.jpg"
+                },
+                {
+                  "id": "138",
+                  "name": "Iced Cappuccino",
+                  "image": "/assets/menu/a3daa5af2f60df.jpg"
+                },
+                {
+                  "id": "139",
+                  "name": "Iced Caffe Mocha",
+                  "image": "/assets/menu/ae21c1f488b5f6.jpg"
+                },
+                {
+                  "id": "140",
+                  "name": "Iced Americano",
+                  "image": "/assets/menu/8673c415670d94.jpg"
+                },
+                {
+                  "id": "141",
+                  "name": "Iced White Chocolate Mocha",
+                  "image": "/assets/menu/283fa537b37559.jpg"
+                },
+                {
+                  "id": "142",
+                  "name": "Iced Caffe Latte",
+                  "image": "/assets/menu/3165fb860b8229.jpg"
+                },
+                {
+                  "id": "143",
+                  "name": "Cold Foam Iced Espresso",
+                  "image": "/assets/menu/a211c8ddb3e977.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "title": "Blended Beverage",
+          "image": "/assets/menu/f82991c20c9768.jpg",
+          "groups": [
+            {
+              "title": "Cream-based Frappuccino®",
+              "products": [
+                {
+                  "id": "119",
+                  "name": "Chai Tea Cream Frappuccino",
+                  "image": "/assets/menu/82cb35944d73e8.jpg"
+                },
+                {
+                  "id": "121",
+                  "name": "White Chocolate Cream Frappuccino",
+                  "image": "/assets/menu/94a267b7a0ec6d.jpg"
+                },
+                {
+                  "id": "122",
+                  "name": "Caramel Cream Frappuccino",
+                  "image": "/assets/menu/36b6e917cb84f8.jpg"
+                },
+                {
+                  "id": "124",
+                  "name": "Strawberries & Cream Frappuccino",
+                  "image": "/assets/menu/657bf092dff3ba.jpg"
+                },
+                {
+                  "id": "125",
+                  "name": "Pure Matcha Cream Frappuccino",
+                  "image": "/assets/menu/ed74d50091c82b.jpg"
+                },
+                {
+                  "id": "120",
+                  "name": "Vanilla Cream Frappuccino",
+                  "image": "/assets/menu/a03b3fd10b03c8.jpg"
+                },
+                {
+                  "id": "123",
+                  "name": "Chocolate Chip Cream Frappuccino",
+                  "image": "/assets/menu/78991544984f82.jpg"
+                },
+                {
+                  "id": "126",
+                  "name": "Chocolate Cream Frappuccino",
+                  "image": "/assets/menu/29f2c8e4287eb7.jpg"
+                }
+              ]
+            },
+            {
+              "title": "Coffee-based Frappuccino®",
+              "products": [
+                {
+                  "id": "109",
+                  "name": "Espresso Frappuccino",
+                  "image": "/assets/menu/cb8dfeb1232816.jpg"
+                },
+                {
+                  "id": "110",
+                  "name": "White Mocha Frappuccino",
+                  "image": "/assets/menu/63418a123daadd.jpg"
+                },
+                {
+                  "id": "111",
+                  "name": "Dark Caramel Coffee Frappuccino",
+                  "image": "/assets/menu/c8f547c9bf1052.jpg"
+                },
+                {
+                  "id": "112",
+                  "name": "Triple Mocha Frappuccino",
+                  "image": "/assets/menu/b0d7d9fd085173.jpg"
+                },
+                {
+                  "id": "113",
+                  "name": "Coffee Jelly Frappuccino",
+                  "image": "/assets/menu/cd7c209c8e4880.jpg"
+                },
+                {
+                  "id": "114",
+                  "name": "Caramel Frappuccino",
+                  "image": "/assets/menu/78d77594fb3dd9.jpg"
+                },
+                {
+                  "id": "115",
+                  "name": "Coffee Frappuccino",
+                  "image": "/assets/menu/93dbe4ffd21f71.jpg"
+                },
+                {
+                  "id": "116",
+                  "name": "Mocha Frappuccino",
+                  "image": "/assets/menu/96461735bd91b6.jpg"
+                },
+                {
+                  "id": "117",
+                  "name": "Java Chip Frappuccino",
+                  "image": "/assets/menu/b6bcba98dfe258.jpg"
+                },
+                {
+                  "id": "118",
+                  "name": "Dark Mocha Frappuccino",
+                  "image": "/assets/menu/f0f3ec405f95bf.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "title": "Teavana Tea",
+          "image": "/assets/menu/a76cb58411677b.jpg",
+          "groups": [
+            {
+              "title": "Hot Tea",
+              "products": [
+                {
+                  "id": "151",
+                  "name": "Full Leaf Brewed Tea",
+                  "image": "/assets/menu/a9aba956f79f19.jpg"
+                }
+              ]
+            },
+            {
+              "title": "Iced Tea",
+              "products": [
+                {
+                  "id": "144",
+                  "name": "Iced Black Tea Latte",
+                  "image": "/assets/menu/4cbc45433acbf2.jpg"
+                },
+                {
+                  "id": "145",
+                  "name": "Iced Pure Matcha and Espresso Fusion",
+                  "image": "/assets/menu/86eabf30d97dfa.jpg"
+                },
+                {
+                  "id": "146",
+                  "name": "Iced Chai Tea Latte",
+                  "image": "/assets/menu/61472acce8d5ea.jpg"
+                },
+                {
+                  "id": "147",
+                  "name": "Iced Pure Matcha Latte",
+                  "image": "/assets/menu/78fb45861548e3.jpg"
+                },
+                {
+                  "id": "148",
+                  "name": "Iced Shaken Teas",
+                  "image": "/assets/menu/8f1422389bc971.jpg"
+                },
+                {
+                  "id": "149",
+                  "name": "Iced Shaken Hibiscus Tea with Pomegranate Pearls",
+                  "image": "/assets/menu/cb6548bf5eff00.jpg"
+                },
+                {
+                  "id": "150",
+                  "name": "Iced Ruby Grapefruit and Honey Black Tea",
+                  "image": "/assets/menu/f5ce60edf2038f.jpg"
+                },
+                {
+                  "id": "152",
+                  "name": "Iced Vanilla Cold Foam Coffee Jelly Black Tea",
+                  "image": "/assets/menu/72cac82a48beb8.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "41",
+          "title": "Starbucks Refreshers",
+          "image": "/assets/menu/42722a54c033de.jpg",
+          "groups": [
+            {
+              "title": "Starbucks Refreshers",
+              "products": [
+                {
+                  "id": "351",
+                  "name": "Pink Drink with Strawberry Açaí Starbucks Refreshers™",
+                  "image": "/assets/menu/31d2b4c8ec5e77.jpg"
+                },
+                {
+                  "id": "350",
+                  "name": "Strawberry Açaí with Lemonade Starbucks Refreshers™",
+                  "image": "/assets/menu/fa847cb76ad63f.jpg"
+                },
+                {
+                  "id": "447",
+                  "name": "Mango Dragonfruit with Lemonade Starbucks Refreshers™",
+                  "image": "/assets/menu/505dddd0131d90.jpg"
+                },
+                {
+                  "id": "448",
+                  "name": "Dragon Drink with Mango Dragonfruit Starbucks Refreshers™",
+                  "image": "/assets/menu/6ad1c14a06c63b.jpg"
+                },
+                {
+                  "id": "673",
+                  "name": "Frozen Strawberry Acai Lemonade Starbucks Refreshers™ Beverage",
+                  "image": "/assets/menu/ee9032c8a95cfe.jpg"
+                },
+                {
+                  "id": "675",
+                  "name": "Frozen Mango Dragonfruit Lemonade Starbucks Refreshers™ Beverage",
+                  "image": "/assets/menu/94b24541309280.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "title": "Chocolate & More",
+          "image": "/assets/menu/089809d15208f4.jpg",
+          "groups": [
+            {
+              "title": "Hot Chocolate",
+              "products": [
+                {
+                  "id": "325",
+                  "name": "Signature Hot Chocolate",
+                  "image": "/assets/menu/702b99a8e0568e.jpg"
+                },
+                {
+                  "id": "326",
+                  "name": "White Hot Chocolate",
+                  "image": "/assets/menu/731a7728fdc89a.jpg"
+                }
+              ]
+            },
+            {
+              "title": "Iced Chocolate",
+              "products": [
+                {
+                  "id": "133",
+                  "name": "Iced Chocolate Milk",
+                  "image": "/assets/menu/dfef1a197533f2.jpg"
+                },
+                {
+                  "id": "134",
+                  "name": "Iced Signature Chocolate",
+                  "image": "/assets/menu/8bfefb2c6b80e2.jpg"
+                },
+                {
+                  "id": "135",
+                  "name": "Iced White Chocolate",
+                  "image": "/assets/menu/ecee23c8152c6a.jpg"
+                },
+                {
+                  "id": "136",
+                  "name": "Iced Classic Chocolate",
+                  "image": "/assets/menu/b93f7b2df9a5c0.jpg"
+                }
+              ]
+            },
+            {
+              "title": "Others",
+              "products": [
+                {
+                  "id": "154",
+                  "name": "Steamed Milk",
+                  "image": "/assets/menu/1387f09912e59d.jpg"
+                },
+                {
+                  "id": "606",
+                  "name": "Hope In A Box",
+                  "image": "/assets/menu/9377ec5bb26da0.jpg"
+                },
+                {
+                  "id": "784",
+                  "name": "Vita Coco Coconut Water",
+                  "image": "/assets/menu/3abb5346e274ba.jpg"
+                },
+                {
+                  "id": "264",
+                  "name": "Noah's Apple",
+                  "image": "/assets/menu/f86376df2d061a.jpg"
+                },
+                {
+                  "id": "265",
+                  "name": "Noah's Green",
+                  "image": "/assets/menu/0e742936e41c8f.jpg"
+                },
+                {
+                  "id": "266",
+                  "name": "Noah's Orange",
+                  "image": "/assets/menu/b37fd50bd1d00c.jpg"
+                },
+                {
+                  "id": "269",
+                  "name": "Remedy Kombucha Peach",
+                  "image": "/assets/menu/8264f5c01f6998.jpg"
+                },
+                {
+                  "id": "270",
+                  "name": "Remedy Kombucha Wildberry",
+                  "image": "/assets/menu/497a0405ec739e.jpg"
+                },
+                {
+                  "id": "271",
+                  "name": "Remedy Kombucha Raspberry",
+                  "image": "/assets/menu/8faeb37e6c2910.jpg"
+                },
+                {
+                  "id": "559",
+                  "name": "Remedy Kombucha Mango Passion",
+                  "image": "/assets/menu/b7b2c536b7972b.png"
+                },
+                {
+                  "id": "558",
+                  "name": "Remedy Kombucha Orange Squeeze",
+                  "image": "/assets/menu/eae9c63cc214fc.png"
+                },
+                {
+                  "id": "272",
+                  "name": "San Pellegrino Sparkling Water",
+                  "image": "/assets/menu/59fd8259ceca4c.png"
+                },
+                {
+                  "id": "274",
+                  "name": "Silk Almond Milk",
+                  "image": "/assets/menu/0fe8ba96912cb4.jpg"
+                },
+                {
+                  "id": "275",
+                  "name": "Silk Soy Chocolate",
+                  "image": "/assets/menu/db8c3e48f906b5.jpg"
+                },
+                {
+                  "id": "282",
+                  "name": "Jax Coco",
+                  "image": "/assets/menu/d7df4cc9285b64.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "title": "Starbucks Reserve®",
+          "image": "/assets/menu/acebbda97cd0b5.jpg",
+          "groups": [
+            {
+              "title": "Brewed Coffee",
+              "products": [
+                {
+                  "id": "162",
+                  "name": "Starbucks Reserve Cold Brew",
+                  "image": "/assets/menu/c19a13a1c5a5b9.jpg"
+                },
+                {
+                  "id": "161",
+                  "name": "Starbucks Reserve Nitro Cold Brew",
+                  "image": "/assets/menu/4a3e0abd796968.jpg"
+                },
+                {
+                  "id": "160",
+                  "name": "Starbucks Reserve Vanilla Sweet Cream Cold Brew",
+                  "image": "/assets/menu/94a8257c37e71c.jpg"
+                },
+                {
+                  "id": "175",
+                  "name": "Starbucks Reserve Dark Caramel Nitro Cold Brew",
+                  "image": "/assets/menu/29bf1a398b79e6.jpg"
+                },
+                {
+                  "id": "331",
+                  "name": "Starbucks Reserve Brewed Coffee by Coffee Press",
+                  "image": "/assets/menu/aa22334c9ccf65.jpg"
+                },
+                {
+                  "id": "332",
+                  "name": "Starbucks Reserve Brewed Coffee by Pour Over",
+                  "image": "/assets/menu/c509ea5732e60d.jpg"
+                },
+                {
+                  "id": "333",
+                  "name": "Starbucks Reserve Brewed Coffee by Siphon",
+                  "image": "/assets/menu/5f6b2e096161ad.jpg"
+                },
+                {
+                  "id": "334",
+                  "name": "Starbucks Reserve Brewed Coffee by Chemex",
+                  "image": "/assets/menu/e1317e8da0f3df.jpg"
+                }
+              ]
+            },
+            {
+              "title": "Espresso",
+              "products": [
+                {
+                  "id": "181",
+                  "name": "Starbucks Reserve Espresso Con Panna",
+                  "image": "/assets/menu/75ea7c47bd359c.jpg"
+                },
+                {
+                  "id": "182",
+                  "name": "Starbucks Reserve Espresso Macchiato",
+                  "image": "/assets/menu/b52c3f95a00575.jpg"
+                },
+                {
+                  "id": "183",
+                  "name": "Starbucks Reserve Espresso",
+                  "image": "/assets/menu/508d5d12dc64d7.jpg"
+                }
+              ]
+            },
+            {
+              "title": "Espresso Classics",
+              "products": [
+                {
+                  "id": "163",
+                  "name": "Iced Starbucks Reserve Dark Chocolate Mocha",
+                  "image": "/assets/menu/77d193393382b6.jpg"
+                },
+                {
+                  "id": "165",
+                  "name": "Iced Starbucks Reserve Caffè Latte",
+                  "image": "/assets/menu/41ba70e207646b.jpg"
+                },
+                {
+                  "id": "166",
+                  "name": "Iced Starbucks Reserve Cappuccino",
+                  "image": "/assets/menu/c2a14ba4631dd6.jpg"
+                },
+                {
+                  "id": "167",
+                  "name": "Iced Starbucks Reserve Americano",
+                  "image": "/assets/menu/8905909613a0b6.jpg"
+                },
+                {
+                  "id": "168",
+                  "name": "Iced Starbucks Reserve Americano Con Crema",
+                  "image": "/assets/menu/953d4b78a6dfd4.jpg"
+                },
+                {
+                  "id": "184",
+                  "name": "Starbucks Reserve Cortado",
+                  "image": "/assets/menu/d95c3722acc94e.jpg"
+                }
+              ]
+            },
+            {
+              "title": "Ice Cream",
+              "products": [
+                {
+                  "id": "169",
+                  "name": "Starbucks Reserve House Affogato",
+                  "image": "/assets/menu/a80f29eafe223a.jpg"
+                },
+                {
+                  "id": "170",
+                  "name": "Starbucks Reserve Classic Affogato",
+                  "image": "/assets/menu/4787967f416ce0.jpg"
+                },
+                {
+                  "id": "171",
+                  "name": "Starbucks Reserve Nitro Cold Brew Float",
+                  "image": "/assets/menu/56045c9a0dd842.jpg"
+                },
+                {
+                  "id": "172",
+                  "name": "Starbucks Reserve Cold Brew Float",
+                  "image": "/assets/menu/472aa00fd09d15.jpg"
+                },
+                {
+                  "id": "173",
+                  "name": "Starbucks Reserve Cold Brew Malt",
+                  "image": "/assets/menu/b43987bbc241ce.jpg"
+                },
+                {
+                  "id": "405",
+                  "name": "Starbucks Reserve Double Chocolate Float",
+                  "image": "/assets/menu/daba0a0bb9216d.jpg"
+                },
+                {
+                  "id": "406",
+                  "name": "Starbucks Reserve Strawberry Malt",
+                  "image": "/assets/menu/5de80ddada63fc.jpg"
+                }
+              ]
+            },
+            {
+              "title": "New Traditions",
+              "products": [
+                {
+                  "id": "174",
+                  "name": "Iced Starbucks Reserve Vanilla Bean Latte",
+                  "image": "/assets/menu/826485e6020f16.jpg"
+                },
+                {
+                  "id": "330",
+                  "name": "Starbucks Reserve Hazelnut Bianco",
+                  "image": "/assets/menu/6fecab7c404310.jpg"
+                },
+                {
+                  "id": "176",
+                  "name": "Starbucks Reserve Shakerato",
+                  "image": "/assets/menu/facce083730857.jpg"
+                },
+                {
+                  "id": "177",
+                  "name": "Starbucks Reserve Shakerato Bianco Deconstructed",
+                  "image": "/assets/menu/8cf055b4faafa0.jpg"
+                },
+                {
+                  "id": "178",
+                  "name": "Starbucks Reserve Shakerato Bianco",
+                  "image": "/assets/menu/000f2f80478117.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "39",
+          "title": "Coffee Traveler",
+          "image": "/assets/menu/130295374b681f.jpg",
+          "groups": [
+            {
+              "title": "Coffee Traveler",
+              "products": [
+                {
+                  "id": "399",
+                  "name": "Coffee Traveler Kit (12-cup)",
+                  "image": "/assets/menu/86e3d9e3d2a97e.jpg"
+                },
+                {
+                  "id": "400",
+                  "name": "Mini Coffee Traveler Kit (6-cup)",
+                  "image": "/assets/menu/669933d6ddc44d.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Food",
+      "categories": [
+        {
+          "id": "35",
+          "title": "Featured Food",
+          "image": "/assets/menu/c89c4bf67e71b0.jpg",
+          "groups": [
+            {
+              "title": "Featured Food",
+              "products": [
+                {
+                  "id": "824",
+                  "name": "Hot Chocolate Doughnut",
+                  "image": "/assets/menu/c21dfeb10bcc4a.jpg"
+                },
+                {
+                  "id": "825",
+                  "name": "Screamy Cherrylicious Fritter",
+                  "image": "/assets/menu/27f94c62230836.jpg"
+                },
+                {
+                  "id": "831",
+                  "name": "Matcha Black Sesame Whoopie Pie",
+                  "image": "/assets/menu/6474dac962f2d9.jpg"
+                },
+                {
+                  "id": "832",
+                  "name": "Blazing Chicken Peri Wrap",
+                  "image": "/assets/menu/9e2417760e3d81.jpg"
+                },
+                {
+                  "id": "826",
+                  "name": "Tuna Melt on Multigrain Sourdough",
+                  "image": "/assets/menu/ff88d11bc7517e.jpg"
+                },
+                {
+                  "id": "827",
+                  "name": "Speculoos Bliss Mousse Cake",
+                  "image": "/assets/menu/1a80d874cef930.jpg"
+                },
+                {
+                  "id": "828",
+                  "name": "Banana Apple Pumpkin Cake",
+                  "image": "/assets/menu/9cc9231d5faa67.jpg"
+                },
+                {
+                  "id": "829",
+                  "name": "Golden Caramel Cheesecake",
+                  "image": "/assets/menu/a73a839350addf.jpg"
+                },
+                {
+                  "id": "830",
+                  "name": "Dark Mocha Chia Pudding",
+                  "image": "/assets/menu/7c2d9bf5c87790.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "title": "All-day Bakery",
+          "image": "/assets/menu/35906d7afeefc1.jpg",
+          "groups": [
+            {
+              "title": "All-day Bakery",
+              "products": [
+                {
+                  "id": "833",
+                  "name": "Flaky Tuna Hand Pie",
+                  "image": "/assets/menu/1526eb71667858.jpg"
+                },
+                {
+                  "id": "834",
+                  "name": "Onion Blossom Bagel",
+                  "image": "/assets/menu/a3d70c6b7111fa.jpg"
+                },
+                {
+                  "id": "835",
+                  "name": "Ham and Cheese Danish",
+                  "image": "/assets/menu/668631e6758f0e.jpg"
+                },
+                {
+                  "id": "836",
+                  "name": "Green Tea Mochi Doughnut",
+                  "image": "/assets/menu/05f078706a963d.jpg"
+                },
+                {
+                  "id": "837",
+                  "name": "Strawberry Mochi Doughnut",
+                  "image": "/assets/menu/c3e5c2deb6dff3.jpg"
+                },
+                {
+                  "id": "838",
+                  "name": "Latte Mochi Doughnut",
+                  "image": "/assets/menu/e038549d260f90.jpg"
+                },
+                {
+                  "id": "211",
+                  "name": "Banana Bread",
+                  "image": "/assets/menu/0754e15b84aa9a.jpg"
+                },
+                {
+                  "id": "212",
+                  "name": "Belgian Waffle",
+                  "image": "/assets/menu/ddce0466864598.jpg"
+                },
+                {
+                  "id": "213",
+                  "name": "Chocolate Dipped Doughnut",
+                  "image": "/assets/menu/389e7df0e73068.jpg"
+                },
+                {
+                  "id": "214",
+                  "name": "Cinnamon Danish",
+                  "image": "/assets/menu/af2d82c345cd1c.jpg"
+                },
+                {
+                  "id": "215",
+                  "name": "Corned Beef Pandesal",
+                  "image": "/assets/menu/2f0b700d352988.jpg"
+                },
+                {
+                  "id": "216",
+                  "name": "Dark Chocolate Macadamia Cookie",
+                  "image": "/assets/menu/a84aba0ca18058.jpg"
+                },
+                {
+                  "id": "217",
+                  "name": "Double Chocolate Pecan Bar",
+                  "image": "/assets/menu/9b0ca6ddb19bd9.jpg"
+                },
+                {
+                  "id": "218",
+                  "name": "Everything Bagel",
+                  "image": "/assets/menu/246e16424ee90d.jpg"
+                },
+                {
+                  "id": "219",
+                  "name": "Four Cheese Flatbread",
+                  "image": "/assets/menu/776ade9bd6bfae.jpg"
+                },
+                {
+                  "id": "220",
+                  "name": "French Butter Croissant",
+                  "image": "/assets/menu/bdbbc39c84d522.jpg"
+                },
+                {
+                  "id": "221",
+                  "name": "French Toast with maple syrup",
+                  "image": "/assets/menu/51844a648ea14c.jpg"
+                },
+                {
+                  "id": "222",
+                  "name": "Glazed Doughnut",
+                  "image": "/assets/menu/3c6351f4bfa59d.jpg"
+                },
+                {
+                  "id": "626",
+                  "name": "Chocolate Pistachio Dream Bar",
+                  "image": "/assets/menu/af106775bccfe1.jpg"
+                },
+                {
+                  "id": "627",
+                  "name": "Croque Monsieur",
+                  "image": "/assets/menu/880b51ffa208b0.jpg"
+                },
+                {
+                  "id": "225",
+                  "name": "Sausage and Bacon Flatbread",
+                  "image": "/assets/menu/2a7e40f01594ba.jpg"
+                },
+                {
+                  "id": "226",
+                  "name": "Sausage Roll",
+                  "image": "/assets/menu/6b055462ba047d.jpg"
+                },
+                {
+                  "id": "228",
+                  "name": "Sticky Cinnamon Bun",
+                  "image": "/assets/menu/7ff4994091a399.jpg"
+                },
+                {
+                  "id": "229",
+                  "name": "Triple Cheese Ensaymada",
+                  "image": "/assets/menu/b68e06372dc60a.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9",
+          "title": "Sandwiches & Pastas",
+          "image": "/assets/menu/3bd7824e84768b.jpg",
+          "groups": [
+            {
+              "title": "Sandwiches",
+              "products": [
+                {
+                  "id": "777",
+                  "name": "Mortadella and Pistachio Pesto on Flatbread",
+                  "image": "/assets/menu/3bfeab17ecd3eb.jpg"
+                },
+                {
+                  "id": "778",
+                  "name": "Grilled Cheese on Sourdough Bread",
+                  "image": "/assets/menu/addb55876e2b16.jpg"
+                },
+                {
+                  "id": "779",
+                  "name": "Roasted Chicken Pesto, Shiitake Mushroom and Emmental Cheese on Flatbread",
+                  "image": "/assets/menu/dffe059e9d39fd.jpg"
+                },
+                {
+                  "id": "780",
+                  "name": "Salmon Dill on Brioche Bread",
+                  "image": "/assets/menu/ca0ec182154c16.jpg"
+                },
+                {
+                  "id": "782",
+                  "name": "Chicken Kofta",
+                  "image": "/assets/menu/9438561c88feef.jpg"
+                },
+                {
+                  "id": "783",
+                  "name": "Beef Shawarma",
+                  "image": "/assets/menu/71544624628cde.jpg"
+                },
+                {
+                  "id": "245",
+                  "name": "SPAM® Classic, Egg & Cheese on Potato Bread",
+                  "image": "/assets/menu/b48fa5e7c71a96.jpg"
+                },
+                {
+                  "id": "242",
+                  "name": "Roasted Ham, Egg, & Cheese on Croissant Bun",
+                  "image": "/assets/menu/6dcf8dee46a1dc.jpg"
+                },
+                {
+                  "id": "246",
+                  "name": "Spanish Chorizo, Egg and Mozzarella Cheese on Whole Wheat Pandesal",
+                  "image": "/assets/menu/4aef43b7bfd063.jpg"
+                },
+                {
+                  "id": "232",
+                  "name": "Turkey Ham, Egg White And Fontina Cheese On Whole Wheat English Muffin",
+                  "image": "/assets/menu/6de43e5ec19ebf.jpg"
+                }
+              ]
+            },
+            {
+              "title": "Pastas",
+              "products": [
+                {
+                  "id": "238",
+                  "name": "Penne Pesto with Mushroom",
+                  "image": "/assets/menu/4f1d9222eb7851.jpg"
+                },
+                {
+                  "id": "239",
+                  "name": "Plant-Based Classic Lasagna",
+                  "image": "/assets/menu/cabd7eee1f7619.jpg"
+                },
+                {
+                  "id": "449",
+                  "name": "Fusilli Baked Salmon",
+                  "image": "/assets/menu/a8a97cdcee7054.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "38",
+          "title": "Oatmeal & Fruits",
+          "image": "/assets/menu/5c67cb5d29ded6.jpg",
+          "groups": [
+            {
+              "title": "Oatmeal & Fruits",
+              "products": [
+                {
+                  "id": "256",
+                  "name": "Berry Chia Overnight Oats",
+                  "image": "/assets/menu/b239d7ba3313ec.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10",
+          "title": "Desserts",
+          "image": "/assets/menu/d4236c45790639.jpg",
+          "groups": [
+            {
+              "title": "Desserts",
+              "products": [
+                {
+                  "id": "629",
+                  "name": "Triple Chocolate Mousse Cake made with Belgian Chocolate (No Sugar Added)",
+                  "image": "/assets/menu/ab7babf316d774.jpg"
+                },
+                {
+                  "id": "248",
+                  "name": "New York Cheesecake",
+                  "image": "/assets/menu/2d69f608b4e68d.jpg"
+                },
+                {
+                  "id": "251",
+                  "name": "Blueberry Licious Cheesecake",
+                  "image": "/assets/menu/948a3d75c9422f.jpg"
+                },
+                {
+                  "id": "252",
+                  "name": "Classic Chocolate Cake",
+                  "image": "/assets/menu/24bf608e240918.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "11",
+          "title": "Ready-to-Eat & More",
+          "image": "/assets/menu/d5365d2ac28e26.jpg",
+          "groups": [
+            {
+              "title": "Ready-to-Eat & More",
+              "products": [
+                {
+                  "id": "762",
+                  "name": "Croissant Bites",
+                  "image": "/assets/menu/961f0ce28c4517.jpg"
+                },
+                {
+                  "id": "840",
+                  "name": "Caramel Macchiato Popcorn and Pretzel",
+                  "image": "/assets/menu/2dcf60995b9a82.jpg"
+                },
+                {
+                  "id": "815",
+                  "name": "Starbucks Sugar-Free Lemon Mints",
+                  "image": "/assets/menu/397417b7f5e95e.jpg"
+                },
+                {
+                  "id": "816",
+                  "name": "Starbucks Sugar-Free Blackcurrants Mints",
+                  "image": "/assets/menu/ee05ad10440296.jpg"
+                },
+                {
+                  "id": "817",
+                  "name": "Starbucks Sugar-Free Peach Mints",
+                  "image": "/assets/menu/aa97dac651b578.jpg"
+                },
+                {
+                  "id": "455",
+                  "name": "Starbucks Shortbread Cookies",
+                  "image": "/assets/menu/f1c494ebed68e6.jpg"
+                },
+                {
+                  "id": "259",
+                  "name": "65% Dark Chocolate",
+                  "image": "/assets/menu/119d4c75d243b6.jpg"
+                },
+                {
+                  "id": "260",
+                  "name": "Lollipops",
+                  "image": "/assets/menu/9e7f85d56a395c.jpg"
+                },
+                {
+                  "id": "261",
+                  "name": "Starbucks Sugar Free Classic Mints",
+                  "image": "/assets/menu/664c37e9a95368.jpg"
+                },
+                {
+                  "id": "346",
+                  "name": "Starbucks Mixed Roots Chips (Smoked BBQ)",
+                  "image": "/assets/menu/85a972c69bbeea.jpg"
+                },
+                {
+                  "id": "347",
+                  "name": "Starbucks Mixed Roots Chips (Sea Salt)",
+                  "image": "/assets/menu/af090043833a1d.jpg"
+                },
+                {
+                  "id": "348",
+                  "name": "Starbucks Mixed Nuts and Fruits",
+                  "image": "/assets/menu/c5b42bd3b55e0e.jpg"
+                },
+                {
+                  "id": "575",
+                  "name": "Starbucks Mixed Roots Chips (Truffle Cheese)",
+                  "image": "/assets/menu/ff3623f32adad1.png"
+                },
+                {
+                  "id": "576",
+                  "name": "Sugar-free Chewing Gum",
+                  "image": "/assets/menu/4f184c972637af.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "42",
+          "title": "Bake-in",
+          "image": "/assets/menu/3e33861e355971.jpg",
+          "groups": [
+            {
+              "title": "Bake-in",
+              "products": [
+                {
+                  "id": "469",
+                  "name": "French Butter Croissant",
+                  "image": "/assets/menu/fe7137e80b0fda.jpg"
+                },
+                {
+                  "id": "470",
+                  "name": "Pain Au Chocolat Extravagant",
+                  "image": "/assets/menu/f02c91e1d0b640.jpg"
+                },
+                {
+                  "id": "471",
+                  "name": "Breizh' n' Roll",
+                  "image": "/assets/menu/0f3cd749c7d0a8.jpg"
+                },
+                {
+                  "id": "472",
+                  "name": "Cheese Danish",
+                  "image": "/assets/menu/f5b94c208cf018.jpg"
+                },
+                {
+                  "id": "473",
+                  "name": "Dark Chocolate Twist",
+                  "image": "/assets/menu/62a1ca45bbf35c.jpg"
+                },
+                {
+                  "id": "476",
+                  "name": "Pastel de Nata",
+                  "image": "/assets/menu/a01aedc54ed241.jpg"
+                },
+                {
+                  "id": "477",
+                  "name": "Hazelnut Vanilla Crown",
+                  "image": "/assets/menu/09086db0efdabf.jpg"
+                },
+                {
+                  "id": "478",
+                  "name": "Strawberry Tart",
+                  "image": "/assets/menu/e00d3686510f6a.jpg"
+                },
+                {
+                  "id": "479",
+                  "name": "Tarte Au Chocolat",
+                  "image": "/assets/menu/3ebac48e563b00.jpg"
+                },
+                {
+                  "id": "480",
+                  "name": "Raspberry Meringue Tartlet",
+                  "image": "/assets/menu/60ec1a7da0bc7b.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "At Home Coffee",
+      "categories": [
+        {
+          "id": "12",
+          "title": "Whole Bean",
+          "image": "/assets/menu/d892a457c214c9.jpg",
+          "groups": [
+            {
+              "title": "Whole Bean",
+              "products": [
+                {
+                  "id": "709",
+                  "name": "Starbucks® Anniversary Blend 2025",
+                  "image": "/assets/menu/51d6c7078ee7b3.jpg"
+                },
+                {
+                  "id": "710",
+                  "name": "Starbucks® Single-origin Vietnam",
+                  "image": "/assets/menu/a173dc53aec81c.jpg"
+                },
+                {
+                  "id": "711",
+                  "name": "Starbucks® Sumatra Dua Kali",
+                  "image": "/assets/menu/3a2d7082d67e9c.jpg"
+                },
+                {
+                  "id": "712",
+                  "name": "Starbucks® Aged Sumatra Dua Kali",
+                  "image": "/assets/menu/27337f61b0a480.jpg"
+                }
+              ]
+            },
+            {
+              "title": "Blonde Roast",
+              "products": [
+                {
+                  "id": "185",
+                  "name": "Veranda Blend",
+                  "image": "/assets/menu/dac31d4c0bbea6.jpg"
+                }
+              ]
+            },
+            {
+              "title": "Medium Roast",
+              "products": [
+                {
+                  "id": "188",
+                  "name": "Colombia",
+                  "image": "/assets/menu/ffdf982c400c7c.jpg"
+                },
+                {
+                  "id": "189",
+                  "name": "Guatemala Antigua",
+                  "image": "/assets/menu/3dcf41d97c9b2a.jpg"
+                },
+                {
+                  "id": "190",
+                  "name": "House Blend",
+                  "image": "/assets/menu/76a312dceefa57.jpg"
+                },
+                {
+                  "id": "191",
+                  "name": "Kenya",
+                  "image": "/assets/menu/a350c7fee79756.jpg"
+                },
+                {
+                  "id": "192",
+                  "name": "Pike Place Roast",
+                  "image": "/assets/menu/3061879929c318.jpg"
+                }
+              ]
+            },
+            {
+              "title": "Dark Roast",
+              "products": [
+                {
+                  "id": "195",
+                  "name": "Espresso Roast",
+                  "image": "/assets/menu/ccce2e28d95a3a.jpg"
+                },
+                {
+                  "id": "196",
+                  "name": "Italian Roast",
+                  "image": "/assets/menu/366bdfd0b44958.jpg"
+                },
+                {
+                  "id": "198",
+                  "name": "Sumatra",
+                  "image": "/assets/menu/5722d9c4ccb8fa.jpg"
+                },
+                {
+                  "id": "194",
+                  "name": "Caffè Verona",
+                  "image": "/assets/menu/09c641d45a511d.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "13",
+          "title": "Starbucks VIA®",
+          "image": "/assets/menu/cb7f26dc104eef.jpg",
+          "groups": [
+            {
+              "title": "Starbucks VIA®",
+              "products": [
+                {
+                  "id": "418",
+                  "name": "Iced Coffee Blend (Featured!)",
+                  "image": "/assets/menu/b43c7670c6632b.png"
+                },
+                {
+                  "id": "419",
+                  "name": "Pike Place Roast (Featured!)",
+                  "image": "/assets/menu/7f5314abff79d3.png"
+                },
+                {
+                  "id": "207",
+                  "name": "Matcha",
+                  "image": "/assets/menu/b0338ea19395c1.jpg"
+                },
+                {
+                  "id": "208",
+                  "name": "Caramel Latte",
+                  "image": "/assets/menu/e8419f1b618b10.jpg"
+                },
+                {
+                  "id": "209",
+                  "name": "Mocha",
+                  "image": "/assets/menu/06ec17e1895b66.jpg"
+                }
+              ]
+            },
+            {
+              "title": "Medium Roast",
+              "products": [
+                {
+                  "id": "205",
+                  "name": "Decaf House Blend",
+                  "image": "/assets/menu/002ef258ae4666.jpg"
+                }
+              ]
+            },
+            {
+              "title": "Dark Roast",
+              "products": [
+                {
+                  "id": "206",
+                  "name": "Fairtrade Italian Roast",
+                  "image": "/assets/menu/8f009b5ea2ad3b.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "14",
+          "title": "Starbucks Origami",
+          "image": "/assets/menu/724a788735819d.jpg",
+          "groups": [
+            {
+              "title": "Starbucks Origami",
+              "products": [
+                {
+                  "id": "203",
+                  "name": "Pike Place Roast",
+                  "image": "/assets/menu/219b3665eafa81.jpg"
+                },
+                {
+                  "id": "204",
+                  "name": "Caffe Verona",
+                  "image": "/assets/menu/441134f2181029.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "15",
+          "title": "Starbucks Reserve®",
+          "image": "/assets/menu/c54975bbeac8b2.jpg",
+          "groups": [
+            {
+              "title": "Starbucks Reserve®",
+              "products": [
+                {
+                  "id": "713",
+                  "name": "Starbucks Reserve™ Natural Brazil Rio Verde Yellow Bourbon",
+                  "image": "/assets/menu/515e5ecb3542d7.jpg"
+                },
+                {
+                  "id": "714",
+                  "name": "Starbucks Reserve™ Natural Indonesia West Java Jamumu",
+                  "image": "/assets/menu/d97a2420fcf943.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
