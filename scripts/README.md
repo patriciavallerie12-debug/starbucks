@@ -30,6 +30,14 @@ python3 -m venv /tmp/venv && /tmp/venv/bin/pip install pillow
 The script reads the JSON catalogs and only writes files that do not exist,
 so it is safe to re-run after real photos are added.
 
+## Social icons
+
+`public/assets/facebook.svg`, `instagram.svg`, `twitter.svg` and `youtube.svg`
+are [Bootstrap Icons](https://icons.getbootstrap.com/) glyphs (MIT, copy in
+`public/assets/MIT-Bootstrap-Icons.txt`), recoloured to brand green `#00754a`.
+The first pass used hand-drawn PNGs and they looked off-brand; these replace
+them. Drop the official artwork over the same paths if you have it.
+
 ## Fonts
 
 `public/assets/SoDoSans-*.woff2` are **not** the real SoDo Sans. They are

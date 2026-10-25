@@ -70,22 +70,22 @@ const socialLinks = [
   {
     label: "Facebook",
     href: "https://www.facebook.com/StarbucksPhilippines",
-    image: "/assets/facebook.png",
+    image: "/assets/facebook.svg",
   },
   {
     label: "X / Twitter",
     href: "https://twitter.com/starbucksph",
-    image: "/assets/twitter.png",
+    image: "/assets/twitter.svg",
   },
   {
     label: "Instagram",
     href: "https://www.instagram.com/starbucksph",
-    image: "/assets/instagram.png",
+    image: "/assets/instagram.svg",
   },
   {
     label: "YouTube",
     href: "https://www.youtube.com/channel/UColvYenSJ5Lc4cKrlb0Ajrw",
-    image: "/assets/youtube.png",
+    image: "/assets/youtube.svg",
   },
 ];
 
